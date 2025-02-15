@@ -1,0 +1,26 @@
+.button {
+	display: inline-flex;
+	justify-content: center;
+	padding: 18px 24px;
+	font-size: 18px;
+	color: var(--color-gray-60);
+	white-space: nowrap;
+	background: var(--color-dark);
+	border: var(--border);
+	border-radius: 12px;
+}
+
+.button:hover {
+	color: var(--color-accent);
+	background-color: var(--color-dark-10);
+	border-color: var(--color-accent);
+}
+
+.button-accent {
+	color: var(--color-dark);
+	background-color: var(--color-accent);
+	border-color: var(--color-accent);
+	font-weight: 500;
+	border-radius: 10px;
+	padding: 14px 20px;
+}
