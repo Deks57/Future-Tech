@@ -1,0 +1,8 @@
+.soc1als__list {
+	display: flex;
+	column-gap: 20px;
+}
+
+.soc1als__item {
+	display: flex;
+}

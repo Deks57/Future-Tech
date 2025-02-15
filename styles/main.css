@@ -4,8 +4,25 @@
 @import url('/styles/_utils.css');
 @import url('/styles/_globals.css');
 
+/* header */
+
 @import url('/styles/header/header.css');
 @import url('/styles/header/icon.css');
 @import url('/styles/header/button.css');
 @import url('/styles/header/burger-button.css');
 @import url('/styles/header/logo.css');
+
+/* footer */
+
+@import url('/styles/footer/badge.css');
+@import url('/styles/footer/soc1als.css');
+@import url('/styles/footer/footer.css');
+
+/* main */
+
+/* hero */
+
+@import url('/styles/hero/metrics.css');
+@import url('/styles/hero/resources-preview.css');
+@import url('/styles/hero/advantages.css');
+@import url('/styles/hero/hero.css');

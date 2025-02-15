@@ -3,3 +3,18 @@
 	align-items: center;
 	gap: 10px;
 }
+
+/* .icon::after {
+	--size: 24px;
+
+	content: '';
+	flex-shrink: 0;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.icon::after {
+	content: '';
+	background: url('/icons/arrow-header.svg');
+} */

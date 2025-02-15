@@ -1,0 +1,11 @@
+.badge {
+	display: inline-flex;
+	padding: 4px 14px;
+	border-radius: 6px;
+	font-size: 16px;
+	color: var(--write);
+	border: 1px solid transparent;
+	background: linear-gradient(var(--color-dark-10), var(--color-dark-10))
+			padding-box,
+		var(--gradient) border-box;
+}

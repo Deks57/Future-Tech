@@ -1,0 +1,29 @@
+.hero {
+	display: grid;
+	grid-template-columns: 60% auto;
+	grid-template-areas:
+		'body resources-preview'
+		'metrics resources-preview';
+}
+
+.hero__body {
+	grid-area: body;
+	padding: 150px 50px 100px 0;
+}
+.hero__metrics {
+	grid-area: metrics;
+}
+.hero__resources-preview {
+	grid-area: resources-preview;
+}
+
+.hero__subtitle {
+	font-size: 30px;
+	font-family: var(--font-family-accent);
+	color: var(--color-dark-40);
+	margin-bottom: 30px;
+}
+
+.hero__title {
+	margin-bottom: 20px;
+}
