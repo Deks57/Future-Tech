@@ -1,0 +1,21 @@
+.person-card {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+}
+
+.person-card__img {
+	background: var(--color-dark-15);
+	border-radius: 50%;
+}
+
+.person-card__body {
+	display: grid;
+	gap: 2px;
+}
+
+.person-card__name {
+	font-size: 20px;
+	color: var(--write);
+	font-weight: 600;
+}

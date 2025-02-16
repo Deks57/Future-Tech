@@ -4,6 +4,13 @@
 	color: var(--write);
 }
 
+.section__header-inner:has(.section__link) {
+	display: grid;
+	grid-template-columns: 1fr auto;
+	align-items: center;
+	column-gap: 1px;
+}
+
 .section__header-info {
 	display: grid;
 	align-items: start;

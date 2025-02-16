@@ -1,6 +1,6 @@
 .header {
-	position: sticky;
-	top: 0;
+	/* position: sticky; */
+	/* top: 0; */
 	z-index: 100;
 	animation-name: scrolling-header;
 	animation-fill-mode: both;

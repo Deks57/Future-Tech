@@ -1,0 +1,31 @@
+.tabs__buttons {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	gap: 20px;
+	padding: 50px 0;
+}
+
+.tabs__header {
+	border-bottom: var(--border);
+}
+
+.tabs__button {
+	padding: 30px 10px;
+	border: var(--border);
+	border-radius: 8px;
+	font-size: 18px;
+	color: var(--color-grey-60);
+	background: transparent;
+}
+
+.tabs__button:hover {
+	border-color: var(--color-accent);
+	color: var(--color-accent);
+}
+
+.tabs__button.active {
+	color: var(--write);
+	font-weight: 500;
+	background: var(--color-dark-10);
+	pointer-events: none;
+}

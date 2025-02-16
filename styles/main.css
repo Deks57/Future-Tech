@@ -35,3 +35,10 @@
 @import url('/styles/section/list.css');
 @import url('/styles/section/title.css');
 @import url('/styles/section/card.css');
+
+/* blog */
+
+@import url('/styles/blog/tabs.css');
+@import url('/styles/blog/person-card.css');
+@import url('/styles/blog/blog-actions.css');
+@import url('/styles/blog/blog-card.css');
