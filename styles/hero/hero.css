@@ -1,4 +1,4 @@
-.hero {
+.hero__main {
 	display: grid;
 	grid-template-columns: 60% auto;
 	grid-template-areas:
@@ -10,20 +10,50 @@
 	grid-area: body;
 	padding: 150px 50px 100px 0;
 }
-.hero__metrics {
+.metrics {
 	grid-area: metrics;
+	border-top: var(--border);
 }
 .hero__resources-preview {
 	grid-area: resources-preview;
+	padding: 0 0 80px 80px;
+	border-left: var(--border);
+	background: url(/img/bg.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: cover;
 }
 
 .hero__subtitle {
 	font-size: 30px;
 	font-family: var(--font-family-accent);
+	font-weight: 500;
 	color: var(--color-dark-40);
 	margin-bottom: 30px;
 }
 
 .hero__title {
 	margin-bottom: 20px;
+}
+
+.hero__advantages {
+	border-block: var(--border);
+}
+
+.hero__advantages-list {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.advantages-card {
+	padding: 50px 0;
+}
+
+.hero__advantages-item:not(:first-child) {
+	padding-left: 80px;
+}
+
+.hero__advantages-item:not(:last-child) {
+	padding-right: 80px;
+	border-right: var(--border);
 }

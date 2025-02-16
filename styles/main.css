@@ -23,6 +23,15 @@
 /* hero */
 
 @import url('/styles/hero/metrics.css');
+@import url('/styles/hero/team.css');
 @import url('/styles/hero/resources-preview.css');
 @import url('/styles/hero/advantages.css');
 @import url('/styles/hero/hero.css');
+
+/* section */
+
+@import url('/styles/section/tag.css');
+@import url('/styles/section/section.css');
+@import url('/styles/section/list.css');
+@import url('/styles/section/title.css');
+@import url('/styles/section/card.css');

@@ -1,0 +1,6 @@
+.tile {
+	padding: 40px;
+	border-radius: 12px;
+	background: var(--color-dark-10);
+	border: var(--border);
+}

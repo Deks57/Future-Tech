@@ -1,0 +1,31 @@
+.section__header {
+	padding: 120px 0;
+	background: var(--color-dark-10);
+	color: var(--write);
+}
+
+.section__header-info {
+	display: grid;
+	align-items: start;
+	row-gap: 16px;
+}
+
+.section__subtitle {
+	justify-self: start;
+}
+
+.tag {
+	font-size: 20px;
+	font-weight: 500;
+	padding: 6px 10px;
+	background: var(--color-dark-20);
+	border-radius: 4px;
+}
+
+.section__title {
+	font-family: var(--font-family-accent);
+}
+
+.section__body {
+	border-block: var(--border);
+}

@@ -1,0 +1,17 @@
+.team {
+	display: flex;
+	gap: 10px;
+	background: var(--color-dark-10);
+	border-radius: 100px;
+	padding: 10px;
+}
+
+.team__person {
+	width: 60px;
+	background: var(--color-dark-15);
+	border-radius: 50%;
+	border: 2px solid var(--color-dark-40);
+}
+.team__person:not(:first-child) {
+	margin-left: -16px;
+}
